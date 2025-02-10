@@ -301,59 +301,7 @@ const CONFIG = {
       LINK_GROUP: [
         { TITLE: '官方主页', URL: '/#home' },
         { TITLE: '联系我们', URL: 'https://notion-next-songgou.vercel.app/article/contact-us' },
-        {
-          TITLE: ' ',
-        URL: 'https://docs.tangly1024.com/article/how-to-question'
-        },
-        {
-          TITLE: ' ',
-          URL: 'https://docs.tangly1024.com/article/my-service'
-        }
-      ]
-    },
-    {
-      TITLE: ' ',
-      LINK_GROUP: [
-        {
-          TITLE: ' ',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
-        },
-        {
-          /ITLE: ' ',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
-        },
-        { TITLE: ' ', URL: 'https://docs.tangly1024.com/article/latest' }
-      ]
-    },
-    {
-      TITLE: ' ',
-      LINK_GROUP: [
-        {
-          TITLE: ' ',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
-        },
-        {
-          TITLE: ' ',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
-        },
-        {
-          TITLE: ' ',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
-        }
-      ]
-    }
-/  ],
-
-  STARTER_FOOTER_BLOG_LATEST_TITLE: ' ',
-
-  STARTER_FOOTER_PRIVACY_POLICY_TEXT: ' ',
-  STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
-
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: ' ',
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
-
-  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: ' ',
-  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
+       
 
   // 404页面的提示语
   STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
