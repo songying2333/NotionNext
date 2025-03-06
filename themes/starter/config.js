@@ -309,7 +309,7 @@ const CONFIG = {
           TITLE: '合作申请',
           URL: 'https://docs.tangly1024.com/article/my-service'
         },
-        { TITLE: '联系我们', URL: 'https://docs.tangly1024.com/about' },
+        { TITLE: '联系我们', URL: 'https://docs.tangly1024.com/about' }
       ]
     },
     {
@@ -326,7 +326,7 @@ const CONFIG = {
           TITLE: 'IP电影',
           URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
         },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
+        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' },
         { TITLE: '纪录纪实', URL: 'https://docs.tangly1024.com/article/latest' }
       ]
     },
