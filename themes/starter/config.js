@@ -308,7 +308,7 @@ const CONFIG = {
         {
           TITLE: '合作申请',
           URL: 'https://docs.tangly1024.com/article/my-service'
-        }
+        },
         { TITLE: '联系我们', URL: 'https://docs.tangly1024.com/about' },
       ]
     },
