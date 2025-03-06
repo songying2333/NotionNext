@@ -300,33 +300,57 @@ const CONFIG = {
       TITLE: '关于我们',
       LINK_GROUP: [
         { TITLE: '官方主页', URL: '/#home' },
+        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
+        {
+          TITLE: '帮助支持',
+          URL: 'https://docs.tangly1024.com/article/how-to-question'
+        },
+        {
+          TITLE: '合作申请',
+          URL: 'https://docs.tangly1024.com/article/my-service'
+        }
         { TITLE: '联系我们', URL: 'https://docs.tangly1024.com/about' },
       ]
     },
     {
+      TITLE: '功能特性',
       TITLE: '案例展示',
       LINK_GROUP: [
         {
+          TITLE: '部署指南',
           TITLE: '产品拍摄',
           URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
         },
         {
+          TITLE: '升级指南',
           TITLE: 'IP电影',
           URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
         },
+        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
         { TITLE: '纪录纪实', URL: 'https://docs.tangly1024.com/article/latest' }
       ]
     },
     {
+      TITLE: 'Notion写作',
       TITLE: '业务合作',
       LINK_GROUP: [
         {
+          TITLE: 'Notion开始写作',
           TITLE: '合作伙伴',
           URL: 'https://docs.tangly1024.com/article/start-to-write'
         },
+        {
+          TITLE: '快捷键提升效率',
+          URL: 'https://docs.tangly1024.com/article/notion-short-key'
+        },
+        {
+          TITLE: '中国大陆使用Notion',
+          URL: 'https://docs.tangly1024.com/article/notion-faster'
+        }
       ]
     }
   ],
+
 
   STARTER_FOOTER_BLOG_LATEST_TITLE: '其他文章',
 
