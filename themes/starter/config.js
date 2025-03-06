@@ -258,7 +258,7 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
-  STARTER_BRANDS_ENABLE: flase, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
   STARTER_BRANDS: [
     {
       IMAGE: '/images/starter/brands/graygrids.svg',
@@ -369,7 +369,7 @@ const CONFIG = {
   STARTER_404_BACK: '回到主页',
 
   // 页面底部的行动呼吁模块
-  STARTER_CTA_ENABLE: flase,
+  STARTER_CTA_ENABLE: false,
   STARTER_CTA_TITLE: '你还在等待什么呢？',
   STARTER_CTA_TITLE_2: '现在开始吧',
   STARTER_CTA_DESCRIPTION:
