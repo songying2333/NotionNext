@@ -10,7 +10,7 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '人生如影，电影若梦', // 英雄区文字
+  STARTER_HERO_TITLE_1: '人生如影，电影造梦', // 英雄区文字
   STARTER_HERO_TITLE_2: '为客户提供专业化的内容IP定制服务以及商业营销策划方案', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '查看案例', // 英雄区按钮
@@ -292,7 +292,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '人生如影，电影若梦',
+  STARTER_FOOTER_SLOGAN: '人生如影，电影造梦',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
