@@ -32,7 +32,7 @@ const CONFIG = {
   STARTER_NAV_BUTTON_2_URL: '/sign-up',
 
   // 特性区块
-  STARTER_FEATURE_ENABLE: true, // 特性区块开关
+  STARTER_FEATURE_ENABLE: false, // 特性区块开关
   STARTER_FEATURE_TITLE: '产品', // 特性
   STARTER_FEATURE_TEXT_1: '我们能为您做什么', // 特性
   STARTER_FEATURE_TEXT_2:
@@ -230,12 +230,12 @@ const CONFIG = {
   ],
 
   // 博客文章区块
-  STARTER_BLOG_ENABLE: false, // 首页博文区块开关
-  STARTER_BLOG_TITLE: '我们的博客',
-  STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: '最近的新闻',
+  STARTER_BLOG_ENABLE: true, // 首页博文区块开关
+  STARTER_BLOG_TITLE: '我们的产品',
+  STARTER_BLOG_COUNT: 4, // 首页博文区块默认展示前3篇文章
+  STARTER_BLOG_TEXT_1: '我们能为您做什么',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+    '如影若梦的愿景是通过创意和视听技术，帮助您放大品牌价值以及影响力。',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
