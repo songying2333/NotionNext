@@ -14,10 +14,10 @@ const CONFIG = {
   STARTER_HERO_TITLE_2: '为客户提供专业化的内容IP定制服务以及商业营销策划方案', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '查看案例', // 英雄区按钮
-  STARTER_HERO_BUTTON_1_URL:
+  STARTER_HERO_BUTTON_1_URL: '/archive'
     '', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: '联系我们', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: '', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: '/lianxiwomen', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
@@ -247,7 +247,7 @@ const CONFIG = {
   STARTER_CONTACT_EMAIL_TEXT: 'eagle2015@foxmail.com',
 
   // 嵌入外部表单
-  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
+  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/dla2di', // 基于NoteForm创建，将留言数据存在Notion中
   //   自定义留言表单，以下几个配置暂时废弃
   //   STARTER_CONTACT_MSG_TITLE: '向我们留言',
   //   STARTER_CONTACT_MSG_NAME: '姓名',
@@ -330,7 +330,7 @@ const CONFIG = {
   ],
 
 
-  STARTER_FOOTER_BLOG_LATEST_TITLE: '所有案例',
+  STARTER_FOOTER_BLOG_LATEST_TITLE: '近期案例',
 
   STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
   STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
