@@ -3,8 +3,8 @@
  */
 const CONFIG = {
   // 默认只展示Logo文字，如果设置了logo图片，会在文字左侧显示图标
-  STARTER_LOGO: '', // 普通logo图片 示例：/images/starter/logo/logo.svg
-  STARTER_LOGO_WHITE: '/images/starter/logo/logo-white.svg', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
+  STARTER_LOGO: '/images/starter/logo/logo.svg', // 普通logo图片 示例：/images/starter/logo/logo.svg
+  STARTER_LOGO_WHITE: '/images/starter/logo/logo.svg', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
 
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
 
@@ -25,11 +25,11 @@ const CONFIG = {
   STARTER_HERO_BANNER_IMAGE: '', // hero区下方的全宽图
 
   // 顶部右侧导航暗流
-  STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
-  STARTER_NAV_BUTTON_1_URL: '/sign-in',
+  STARTER_NAV_BUTTON_1_TEXT: '联系我们',
+  STARTER_NAV_BUTTON_1_URL: '/lianxiwomen',
 
-  STARTER_NAV_BUTTON_2_TEXT: 'Sign Up',
-  STARTER_NAV_BUTTON_2_URL: '/sign-up',
+  STARTER_NAV_BUTTON_2_TEXT: '案例展示',
+  STARTER_NAV_BUTTON_2_URL: '/archive',
 
   // 特性区块
   STARTER_FEATURE_ENABLE: false, // 特性区块开关
@@ -232,7 +232,7 @@ const CONFIG = {
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
   STARTER_BLOG_TITLE: '我们的产品',
-  STARTER_BLOG_COUNT: 4, // 首页博文区块默认展示前3篇文章
+  STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
   STARTER_BLOG_TEXT_1: '我们能为您做什么',
   STARTER_BLOG_TEXT_2:
     '如影若梦的愿景是通过创意和视听技术，帮助您放大品牌价值以及影响力。',
@@ -300,59 +300,37 @@ const CONFIG = {
       TITLE: '关于我们',
       LINK_GROUP: [
         { TITLE: '官方主页', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
-        {
-          TITLE: '帮助支持',
-          URL: 'https://docs.tangly1024.com/article/how-to-question'
-        },
-        {
-          TITLE: '合作申请',
-          URL: 'https://docs.tangly1024.com/article/my-service'
-        },
-        { TITLE: '联系我们', URL: 'https://docs.tangly1024.com/about' }
+        { TITLE: '联系我们', URL: '/lianxiwomen' }
       ]
     },
     {
-      TITLE: '功能特性',
       TITLE: '案例展示',
       LINK_GROUP: [
         {
-          TITLE: '部署指南',
           TITLE: '产品拍摄',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
+          URL: '/chanpinpaishe'
         },
         {
-          TITLE: '升级指南',
           TITLE: 'IP电影',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+          URL: '/dianying'
         },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' },
-        { TITLE: '纪录纪实', URL: 'https://docs.tangly1024.com/article/latest' }
+        { TITLE: '品牌宣传', URL: '/pinpai' },
+        { TITLE: '纪录纪实', URL: '/jilu' }
       ]
     },
     {
-      TITLE: 'Notion写作',
-      TITLE: '业务合作',
+      TITLE: '外部链接',
       LINK_GROUP: [
         {
-          TITLE: 'Notion开始写作',
-          TITLE: '合作伙伴',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
-        },
-        {
-          TITLE: '快捷键提升效率',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
-        },
-        {
-          TITLE: '中国大陆使用Notion',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
+          TITLE: '新片场',
+          URL: 'https://www.xinpianchang.com/u11637808?searchKw=%E5%A6%82%E5%BD%B1%E8%8B%A5%E6%A2%A6'
         }
       ]
     }
   ],
 
 
-  STARTER_FOOTER_BLOG_LATEST_TITLE: '其他文章',
+  STARTER_FOOTER_BLOG_LATEST_TITLE: '所有案例',
 
   STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
   STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
