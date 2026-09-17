@@ -33,6 +33,7 @@ import ReadingHome from './components/ReadingHome'
 import RightFloatButtons from './components/RightFloatButtons'
 import SearchNave from './components/SearchNav'
 import TagItemMiddle from './components/TagItemMiddle'
+import WelcomeSplash from './components/WelcomeSplash'
 import CONFIG from './config'
 import { Style } from './style'
 
@@ -122,6 +123,9 @@ const LayoutBase = props => {
 
         {/* 页脚 */}
         <Footer title={siteConfig('TITLE')} />
+
+        {/* 星月夜开屏欢迎页（仅首页） */}
+        {router.route === '/' && <WelcomeSplash />}
       </div>
     </ThemeGlobalMatery.Provider>
   )
